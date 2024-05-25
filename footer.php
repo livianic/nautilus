@@ -1,6 +1,36 @@
-<footer>
+<footer id="contato">
+        <!-- Footer here -->
+    <div class="contact">
+        <img src="/wp-content/themes/nautilus/assets/img/footer-personagemc.png" class="imgf">
+        <div class="text"> 
+            <span>vamos conversar</span>
+            <h2>Você, gestor de uma grande empresa: vai deixar sua marca por fora da nova realidade digital?</h2>
+            <p>Qual é a melhor pessoa e e-mail de sua empresa para que o consultor </p>
+        </div>
+        <!-- <div class="rdp"> -->
+            <div class="box-text-rd">
+                <div class="rdptext">
+                    <span>
+                    Brand Persona - 2022 - Todos os direitos reservados -
+                    <a href="https://pyxys.com.br/" target="_blank" rel="noopener noreferrer">Desenvolvido com ❤ por PYXYS</a>
+                    </span>
+            </div>
+            </div>
+  
+            <!-- formulario -->
+        <div class="form">
+            <form class="contactfrom">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="E-mail empresarial " required>
+                <input type="text" placeholder="Cargo " required>
+                <button type="submit" class="btn btn-success">Enviar contato</button>
+            </form>
 
-    <!-- Footer here -->
+        </div>
+
+        <!-- </div> -->
+    </div>
+
 </footer>
 
 <?php wp_footer(); ?>

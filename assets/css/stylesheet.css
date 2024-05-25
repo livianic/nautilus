@@ -7,11 +7,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 html{
-    height: 500vh;
+   
     background: #ffffff;
     color: #ffffff;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 .container{
@@ -24,6 +29,9 @@ html{
     align-items: center;
     justify-content: space-between;
 }
+
+
+/* header */
 
 header{
     z-index: 1;
@@ -79,6 +87,7 @@ header ul li a:hover {
     text-decoration: underline;
 }
 
+
 .logoBrand{
     width: 100px;
     height: 63px;
@@ -94,7 +103,7 @@ header ul li a:hover {
     width: 700px;
     height: 691px;
     top: -6px;
-    right: 450px;
+    right: 85px;
     
 }
 
@@ -108,7 +117,6 @@ header ul li a:hover {
     background-size: cover;
     background-position: center;
     color: #ffffff;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -142,6 +150,7 @@ header ul li a:hover {
 
 }
 
+
 .rod{
     position: relative;
     top: 150px;
@@ -152,10 +161,7 @@ header ul li a:hover {
     width: 110px;
     height: 24px;
     margin-left: 20px;
-    /* top: 564px;
-    left: 720px;
-    gap: 0px;
-    opacity: 0px; */
+
     
 }
 
@@ -165,6 +171,176 @@ header ul li a:hover {
     margin-left: 20px;
 }
 
+/* pqbrand */
+.box-text {
+    position: relative;
+    width: 560px;
+    height: 200px;
 
+}
+#pq-brandpersona{
+    color: #494949;
+}
+.textred{
+    font-family: "Mukta", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    color: #E33F3F;
+}
+
+#pq-brandpersona h2 {
+    font-family: "Prompt", sans-serif;
+    font-family: Prompt;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+}
+
+#pq-brandpersona p {
+    font-family: "Catamara", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #777777;
+    text-align: left;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-image: url(/wp-content/themes/nautilus/assets/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 455px;
+}
+
+
+.contact{
+    height: 100%;
+}
+
+
+.text {
+
+    position: relative;
+    width: 793px;
+    height: 296px;
+    bottom: 300px;
+    left: 534px;
+    border-radius: 10px 0px 0px 0px;
+
+
+}
+
+.imgf {
+    position: relative;
+    left: 100px;
+    top: 60px;
+}
+
+.form{
+
+    position: relative;
+    bottom: 490px;
+    left: 540px;
+    white-space: nowrap;
+        
+    
+}
+
+
+.contactfrom input{
+    margin-right: 10px;
+    outline: none;
+    background-color: #EF5D5D;
+    border-radius: 8px;
+    border: none;
+    max-width: 100%;
+    color: #fff;
+    padding: 10px 25px;
+
+}
+
+.contactfrom input::placeholder{
+    color: #fff;
+    font-family: "Catamaran", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+
+
+
+}
+
+.contactfrom button {
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+
+}
+
+.box-text-rd{
+    position: relative;
+    bottom: 240px;
+    background-color:#D13232;
+    width: 100%;
+    height: 60px;
+}
+
+
+footer .contact a {
+
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.rdptext{
+    font-family: "Mukta", sans-serif;
+    position: relative;
+    width: 321px;
+    height: 49px;
+    top: 10px;
+    left: 500px;
+    white-space: nowrap;
+}
+
+.rdptext h2 {
+    font-family: "Prompt", sans-serif;
+    
+}
+
+.rdptext p {
+    font-family: "Catamaran", sans-serif;
+}
 
 

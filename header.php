@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <?php wp_head(); ?>
 
-
+    <!-- fonte gg -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- CSS -->
@@ -46,25 +47,4 @@
     
     </header>
 
-    <section class="home" id="home">
-            <div class="personagem1">
-                <img src="/wp-content/themes/nautilus/assets/img/secao-01-personagem.png" alt="">
-            </div/>
-
-            <div class="containerbx">
-                    <div class="box">
-                        <span>leve sua empresa para a nova realidade digital </span>
-                        <h1>A sua persona virtual com alta performance</h1>
-                        <p>Para marcas inovadoras: Brand Persona PYXYS + Ilustraria  é o primeiro combo do Brasil
-                         de construção de avatares 3D, com tecnologia de ponta em computação gráfica, combinada 
-                         à mais completa Estratégia de  Content, Growth e Performance Data-driven</p>
-                        <button type="button" class="btn btn-outline-light">QUERO SABER MAIS</button>
-                        <div class="rod">
-                            <span>Um produto:</span>
-                            <img src="/wp-content/themes/nautilus/assets/img/pyxys-logo-4x.png" class="logopx">
-                            <img src="/wp-content/themes/nautilus/assets/img/logoill.png" class="logoill">
-                        </div>
-                    </div>                    
-            </div>
-    </section>
 
